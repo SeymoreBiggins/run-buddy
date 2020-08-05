@@ -39,14 +39,20 @@ header nav {
 }
 
 /* styles <header> <ul> <li> */
-header nav ul li {
-    display: inline;
-    margin: 0 25px;
-    font-weight: lighter;
-    font-size: 22px;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
-/* End Header */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+/* END HEADER */
 
 /* FOOTER */
 /* styles <footer> */
