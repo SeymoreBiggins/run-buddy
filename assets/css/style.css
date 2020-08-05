@@ -282,34 +282,4 @@ font-style: normal;
 .contact-info a {
 color: #fce138;
 }
-
-.contact div form {
-    width: 400px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 40px 40px 60px;
-    color: white;
-}
-
-.contact div form h3 {
-    color: #fce138;
-    font-size: 32px;
-    line-height: 1.6;
-}
-
-.contact div form input {
-    text-align: left;
-    border-radius: 15px;
-    background-color: lightgray;
-}
-
-.contact div form button {
-    color: #024e76;
-    background-color: #fce138;
-    border-radius: 15px;
-    padding: 5px 175px;
-    font-size: 16px;
-    text-align: center;
-}
 /* REACH OUT STYLES END */
