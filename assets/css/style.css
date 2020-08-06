@@ -5,7 +5,6 @@
 }
 
 body {
-    /* more on this crazy alphanumeric value later*/ 
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -49,6 +48,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* Footer Start */
 footer {
     background: #fce138;
     width: 100%;
@@ -77,6 +77,7 @@ section {
     padding: 60px;
 }
 
+/* Hero Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-position: center;
@@ -182,6 +183,8 @@ section {
     border-color: #39a6b2
 }
 
+
+/* What You Do */
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -232,6 +235,7 @@ section {
     max-width: 100%;
 }
 
+/* Meet the Trainers */
 .trainer {
     margin: 20px;
     background: #024e76;
@@ -276,6 +280,7 @@ section {
     font-size: 17px;
 }
 
+/* Reach Out */
 .contact {
     background-color: #024e76;
 }
@@ -342,6 +347,19 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px
+}
+
+/* Grid */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
 }
 
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -445,3 +463,4 @@ section {
         order: 3;
     }
 }
+
